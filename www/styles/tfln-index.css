@@ -1,0 +1,192 @@
+#main ul#texts-list {
+padding: 0;
+margin: 0
+}
+#main ul#texts-list li {
+list-style-type: none;
+margin-left: 0px
+}
+#main ul#texts-list li {
+margin-bottom: 20px
+}
+#main ul#texts-list li .text {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+padding: 20px 20px 0 20px;
+background: #f5f5f5 url('http://z.textsfromlastnight.com/images/bg-text-top.png') repeat-x 0px 0px;
+border: solid 1px #d0d0d0;
+position: relative;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+box-shadow: 0px 1px 1px rgba(0,0,0,0.1)
+}
+#main ul#texts-list li .text p {
+text-shadow: 0px 1px 0px #fff
+}
+#main ul#texts-list li .text p a {
+color: #2b2b2b;
+font-weight: normal
+}
+#main ul#texts-list li .text p a:hover {
+text-decoration: none;
+color: #555
+}
+#main ul#texts-list li .text .favorite {
+height: 26px;
+width: 68px;
+background: url('http://z.textsfromlastnight.com/images/sprite-favorite.png') no-repeat 0px top;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+position: absolute;
+color: #7c7c7c;
+text-shadow: 0px 1px 0px #fff;
+right: -1px;
+top: -1px;
+display: -moz-inline-box;
+-moz-box-orient: vertical;
+display: inline-block;
+vertical-align: middle;#display:inline;#vertical-align:auto;
+font-size: 10px;
+line-height: 25px;
+padding-left: 10px
+}
+#main ul#texts-list li .text .favorite.selected {
+color: #373737;
+background-position: left bottom
+}
+#main ul#texts-list li .text h3 {
+font-weight: bold;
+font-size: 16px;
+line-height: 1;
+margin-bottom: 10px
+}
+#main ul#texts-list li .text h3 a {
+color: #6f1010
+}
+#main ul#texts-list li .text h3 a span {
+font-weight: normal;
+font-size: 13px;
+color: #2b2b2b;
+opacity: 0;
+visibility: hidden;
+-webkit-transition: opacity 0.1s linear
+}
+#main ul#texts-list li .text h3 a:hover {
+text-decoration: none;
+color: #9b2323
+}
+#main ul#texts-list li .text h3 a:hover span {
+visibility: visible;
+opacity: 1
+}
+#main ul#texts-list li .text p {
+font-size: 14px
+}
+#main ul#texts-list li .actions {
+background: url('http://z.textsfromlastnight.com/images/pointer.png') no-repeat 10px 0px;
+position: relative;
+top: -1px;
+font-size: 12px;
+padding-left: 30px;
+padding-top: 8px
+}
+#main ul#texts-list li .actions a {
+color: #797979;
+margin-right: 30px;
+display: -moz-inline-box;
+-moz-box-orient: vertical;
+display: inline-block;
+vertical-align: middle;#display:inline;#vertical-align:auto;
+font-weight: normal;
+padding: 0px 0px 0px 22px;
+-webkit-transition: color linear 0.1s
+}
+#main ul#texts-list li .actions a.replies {
+background: url('http://z.textsfromlastnight.com/images/rate-sprite.png') no-repeat 0px -17px;
+padding-left: 25px
+}
+#main ul#texts-list li .actions a.replies:hover {
+background-position: 0px 1px
+}
+#main ul#texts-list li .actions a.good-night {
+background: url('http://z.textsfromlastnight.com/images/rate-sprite.png') no-repeat 0px -90px
+}
+#main ul#texts-list li .actions a.good-night:hover {
+background-position: 0px -72px
+}
+#main ul#texts-list li .actions a.bad-night {
+background: url('http://z.textsfromlastnight.com/images/rate-sprite.png') no-repeat 0px -53px
+}
+#main ul#texts-list li .actions a.bad-night:hover {
+background-position: 0px -35px
+}
+#main ul#texts-list li .actions a.tshirt {
+display: inline;
+float: right;
+margin-right: 0;
+font-weight: bold;
+color: #841616
+}
+#main ul#texts-list li .actions a:hover {
+color: #555;
+text-decoration: none
+}
+#main ul#texts-list li .actions a span {
+font-weight: normal;
+color: #5e0c0c;
+font-size: 11px
+}
+.copy h4 {
+margin-bottom: 5px;
+font-size: 13px
+}
+.copy textarea {
+width: 96%;
+margin-bottom: 15px;
+height: 60px;
+overflow: hidden
+}
+a.select {
+height: 26px;
+width: 22px;
+background: url('http://z.textsfromlastnight.com/images/sprite-favorite.png') no-repeat 0px top;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+position: absolute;
+color: #7c7c7c;
+text-shadow: 0px 1px 0px #fff;
+right: 76px;
+top: -1px;
+display: -moz-inline-box;
+-moz-box-orient: vertical;
+display: inline-block;
+vertical-align: middle;#display:inline;#vertical-align:auto;
+font-size: 10px;
+line-height: 25px;
+padding-left: 10px
+}
+a.select img {
+position: relative;
+top: 5px;
+right: 2px
+}
+a.social {
+height: 26px;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+position: absolute;
+color: #7c7c7c;
+text-shadow: 0px 1px 0px #fff;
+top: -1px;
+display: -moz-inline-box;
+-moz-box-orient: vertical;
+display: inline-block;
+vertical-align: middle;#display:inline;#vertical-align:auto;
+font-size: 10px;
+line-height: 25px;
+padding-left: 10px
+}
+a.social img {
+position: relative;
+top: 6px;
+right: 2px
+}

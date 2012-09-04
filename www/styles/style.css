@@ -1,0 +1,122 @@
+
+
+body {
+	background: #D8D8D8
+  color: #000000;
+  margin: auto;
+  font-family : sans-serif; 
+  
+}
+
+.container {
+  width : 100%;
+
+}
+
+.header {
+  text-align: center;
+}
+
+
+textarea {
+  width : 98%;
+  height : 98%;
+}
+
+#headline {
+  margin-top: 10px;
+  height: 40px;
+  background : url(../images/dsr_logo_clear.png) no-repeat;
+  background-position: top center;
+  padding-top: 82px;
+}
+
+#submit-button {
+  margin-top: -30px;
+}
+
+
+
+
+
+
+.shweet-meta {
+  size : auto;
+  right : 0px;
+  float : right;
+}
+
+.shweet-meta > p {
+  margin : 5px 0px;
+  text-align : right;
+}
+
+.me {
+  margin : 5px 0px;
+  float: right;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 10pt !important;
+  width: 100%;
+} 
+    
+.flush {
+  background : #D8D8D8 url(../images/graphics-toilet-sm.png) no-repeat !important;
+  background-position: right !important;
+  color: #000000 !important;
+}
+
+.flush_number {
+  font-size: 1.2em;
+  display : inline;
+  color : red;
+  padding : 0em .2em ;
+  position : relative;
+  bottom : -.05em;
+}
+
+.plunge {
+  background : #D8D8D8 url(../images/plunger.png) no-repeat !important;
+  background-position: right !important;
+  color: #000000 !important;
+}
+
+.plunge a{
+    color: #000000 !important;
+  text-decoration : none !important;
+}
+
+/* desktop*/
+@media screen and (min-width : 480px) {
+  
+  .header h1 {
+    margin: 15px 0px;
+    font-size: 43pt; 
+    padding : 20px
+}
+
+  body {
+  min-width : 420px;
+  max-width : 920px;
+  }
+  .ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+  
+}
+
+/*mobile*/
+@media screen and (max-width : 479px) {
+  
+  .header h1 {
+     font-size: 30pt; 
+     padding-top : 20px;
+     padding-bottom: 20px;
+  }
+  
+  
+  body {
+    margin-top : 10px;
+    width: 320px !important;
+    font-size: 10pt;
+  }
+  .ui-tabs .ui-tabs-nav li a { float: left; padding: .4em .4em; text-decoration: none; }  
+}
