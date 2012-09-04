@@ -1,0 +1,28 @@
+
+
+Currently, the DSR is _registered_ with godaddy and _hosted_ by dreamhost.
+
+Here are some key settings:
+ssh:
+owenmartin:Ih8ska@dailyshitreport.com
+
+web server points to:
+/home/owenmartin/dailyshitreport.com/www
+
+mysql server:
+host: dsr.drunkwithfriends.com
+username: owenmartin
+password: Ih8ska
+
+The challenge:
+
+Set up a git repo in the directory with the DSR, probably the www directory. Set up another one (this is already done) on my local machine.
+
+Then, add the repo on the dailyshitreport.com host as a _remote_ to the one on the local machine.
+
+This would allow the command 'git push [some stuff]' to update the website from my local computer.
+
+
+
+
+still hard\n
