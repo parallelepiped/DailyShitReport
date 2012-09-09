@@ -29,7 +29,7 @@
     <span class = "ad-space"></span>
     <div class = "shweet-meta">
 <?php    echo '<p style = "align : right; font-size : 7pt">'. $row['date'] . '</p>';
-    echo '<div><button class = "me flush" id = "f' . $row['id'] . '">+<div class = "flush_number">'.$row['upvotes'].'</div>Flush It!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></div>' ;
+    echo '<div><button class = "me flush" id = "f' . $row['id'] . '">+<div class = "flush_number">'.$row['upvotes'].'</div>Thumbs Up!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></div>' ;
     echo '<div><button class = "me plunge" id = "p' . $row['id'] .  '"> ';
     ?> 
     <?php

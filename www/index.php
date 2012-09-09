@@ -55,7 +55,7 @@
      <ul>                 
         <li><a href="ajax/freshest.php">Fresh</a></li>
         <li><a href="ajax/hottest.php" >Hot</a></li>
-        <li><a href="ajax/worst.php"   >Worst</a></li>
+        <li><a href="ajax/worst.php"   >Best</a></li>
         <li><a href="ajax/more.php"    >More...</a></li>
     </ul>
     
