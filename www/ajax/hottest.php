@@ -51,8 +51,10 @@
 ?>
 </div>
 
+
 <?php  if (!isset($_GET['page'])) { ?>
   <button class = "load-more hottest">Load more!</button>
+  Support the DSR! Send bitcoin to <a style="font-size: 7px">1KpdVNg6Rsf5qgbWM67fHrKtEeeHEGvNBN</a>
 
 
 <script type="text/javascript">

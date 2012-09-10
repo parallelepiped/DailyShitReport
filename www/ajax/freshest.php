@@ -54,7 +54,7 @@
 <span>
 <?php  if (!isset($_GET['page'])) { ?>
   <button class = "load-more freshest">Load more!</button>
-Support the DSR! Send bitcoin to 1KpdVNg6Rsf5qgbWM67fHrKtEeeHEGvNBN
+Support the DSR! Send bitcoin to <a style="font-size: 7px">1KpdVNg6Rsf5qgbWM67fHrKtEeeHEGvNBN</a>
 </span>
 
 <script type="text/javascript">
