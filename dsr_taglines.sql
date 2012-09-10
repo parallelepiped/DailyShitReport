@@ -7,7 +7,13 @@ CREATE TABLE `taglines` (
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `text` varchar(155) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1428 DEFAULT CHARSET=latin1;
+);
 
 
-INSERT INTO `taglines` (`text`) VALUES ("Get yr log on."), ("Shit. Share. Be Happy."), ("Embrace your rectalmasculinity");
+INSERT INTO `taglines` (`text`) VALUES 
+  ("Get yr log on."),
+  ("Shit. Share. Be Happy."),
+  ("Embrace your rectalmasculinity."),
+  ("Tweet about your poopy. Duh."),
+  ("At work. On the throne. Five days a week."),
+  ("Everybody poops.");

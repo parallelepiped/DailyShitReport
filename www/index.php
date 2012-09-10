@@ -38,7 +38,20 @@
   <div class = "header">
   <h1 >daily shit report</h1>
   <h3 style="text-align : left; padding : 5px">
- Embrace your rectalmasculinity. 
+ 
+
+<?php
+    require_once('ajax/appvars.php');
+    require_once('ajax/connectvars.php');
+    $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME); 
+
+    $query = 'SELECT text FROM taglines WHERE id >= (SELECT FLOOR( MAX(id) * RAND()) FROM taglines ) ORDER BY id LIMIT 1;';
+
+
+    $data = mysqli_query($dbc, $query);
+    $row = mysqli_fetch_array($data);
+    echo $row['text'];
+?> 
 </h3>
   
   
