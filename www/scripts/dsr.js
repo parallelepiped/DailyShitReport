@@ -54,7 +54,7 @@ $(function() {
 
   $("#acknowledgement").dialog({
       autoOpen: false,
-      width: 350,
+      width: 310,
       modal: true,
       buttons: {
         Okay: function() { 
@@ -66,7 +66,7 @@ $(function() {
   $("#dialog-form").dialog({
     autoOpen: false,
   //  height: 300,
-    width: 350,
+    width: 310,
     modal: true,
     buttons: {
       Cancel: function() {
