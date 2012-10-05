@@ -36,7 +36,7 @@
  
 <div class="group">
   <div class = "header">
-  <h1 >daily shit report</h1>
+  <h1>daily shit report</h1>
   <h3 style="text-align : left; padding : 5px">
  
 

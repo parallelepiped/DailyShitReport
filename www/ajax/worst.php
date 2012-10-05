@@ -62,27 +62,22 @@
         var page_number = 1;
         
         $(".plunge").button();
-        
-        
-  //      $(".plunge").click(function(){
-          
-        
-        
         $(".flush").button();
              
-        $(".flush").click(function() {
-            // $(this).button( "option", "disabled", true );
-             $.post("ajax/flush.php", {"shweet_id" : this.id});
-             console.log(this.id);
-             $("#"+$(this).attr("id")).children().children().html(function(i, val) {
-                              return +val+1})
-        });
+    		$('body').on('click', '.flush', function() {								
+    			$.post("ajax/flush.php", {"shweet_id" : this.id});
+          console.log(this.id);
+    			$(this).button();
+          $("#"+$(this).attr("id")).children().children().html(function(i, val) {
+                             return +val+1});          
+    		});
         
-        $(".load-more.hottest").button().click(function () {
+        $(".load-more.worst").button().click(function () {
           page_number++;
-          $.get("ajax/hottest.php?page=" + page_number, function(data) {
-            $(".hottest#shweets").append(data);
-
+          $.get("ajax/worst.php?page=" + page_number, function(data) {
+            $(".worst#shweets").append(data);
+      			$('.flush').button();
+      			$('.plunge').button();
           });
         });
 
