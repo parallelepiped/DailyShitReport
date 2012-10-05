@@ -1,8 +1,8 @@
 <?php
   require_once('authorize.php');
 
-  require_once('ajax/appvars.php');
-  require_once('ajax/connectvars.php');
+  require_once('../ajax/appvars.php');
+  require_once('../ajax/connectvars.php');
 
   $id = substr($_POST['id'],1);
 
